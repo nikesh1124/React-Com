@@ -1,0 +1,221 @@
+* {
+    padding: 0px 0px;
+    margin: 0px 0xp;
+    box-sizing: border-box;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 60vh;
+    /* overflow-y: hidden; */
+    margin: 120px 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    border-radius: 10px;
+    border: 1px solid #2f2b2b;
+    width: 21%;
+    margin-bottom: 30px;
+    padding: 0.5rem;
+}
+
+img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.details {
+    margin-top: 10px;
+    height: 110px;
+}
+
+#name {
+    font-size: 20px;
+}
+
+#lang {
+    font-size: 15px;
+}
+
+.btns button {
+    margin-top: -20px;
+    font-size: 20px;
+    padding: 6px 10px;
+}
+
+.btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* navbar */
+#logo {
+    font-size: 35px;
+    margin-left: 73px;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0;
+    height: 100px;
+}
+
+.d-flex {
+    margin-top: 20px;
+}
+
+.navli {
+    margin-right: 28px;
+}
+
+.navli a {
+    margin: 0px 25px;
+}
+
+
+
+/* form  */
+
+.div-form {
+    margin: 140px 6rem;
+}
+
+.dtls{
+    margin-top: 150px;
+}
+
+#del{
+    margin: 0px 0px 0px 50px;
+    font-size: 50px;
+}
+
+
+
+
+@media (max-width:1150px) {
+    .btns button {
+        margin-top: 0px;
+        font-size: 15px;
+        padding: 6px 5px;
+    }
+}
+
+@media (max-width:1000px) {
+    .container {
+        width: 21%;
+    }
+
+    .navli a:nth-child(2) {
+        /* margin: 0px 25px; */
+        display: none;
+    }
+}
+
+@media (max-width:850px) {
+    .container {
+        width: 28%;
+    }
+
+    #name {
+        font-size: 18px;
+    }
+
+    #lang {
+        font-size: 14px;
+    }
+
+    .navli a {
+        display: none;
+    }
+}
+
+@media (max-width:700px) {
+    ul {
+        margin: 120px 4px;
+    }
+
+    .container {
+        width: 40%;
+    }
+
+    #name {
+        font-size: 16px;
+    }
+
+    #lang {
+        font-size: 14px;
+    }
+
+    .btns {
+        margin-top: -23px;
+    }
+
+    #logo {
+        font-size: 31px;
+        margin-left: 25px;
+    }
+}
+
+@media (max-width:600px) {
+    ul {
+        margin: 120px 4px;
+    }
+
+    .d-flex {
+        margin-top: 20px;
+        width: 50%;
+    }
+}
+
+@media (max-width:500px) {
+    ul {
+        margin: 120px 4px;
+    }
+    .container {
+        width: 80%;
+    }
+
+    .btns {
+        margin-top: -32px;
+    }
+
+    .btns button {
+        font-size: 18px;
+        padding: 3px 8px;
+    }
+
+    .d-flex {
+        margin-top: 20px;
+        width: 47%;
+    }
+
+    #logo {
+        font-size: 24px;
+        margin-left: 1px;
+    }
+
+    .navbar {
+        height: 86px;
+    }
+
+    .btn-outline-success {
+        font-size: 14px;
+        padding: 0px 10px;
+    }
+}
+
+@media (max-width:360px) {
+    btns {
+        margin-top: 0px;
+    }
+}
