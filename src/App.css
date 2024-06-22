@@ -1,3 +1,13 @@
 .onevideo{
     display: flex;
 }
+button{
+    color: black;
+    border: 2px solid violet;
+    background-color: rgb(210, 230, 223);
+}
+.counter{
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+}

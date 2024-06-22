@@ -4,4 +4,47 @@
 }
 .pic{
     width: 100%;
-  }
+    position: relative;
+}
+.title{
+    font-weight: 500;
+}
+.close{
+    margin: 5px 5px 0px 0px;
+    border-radius: 4px ;
+    width: 50px;
+    position: absolute;
+    right: 0rem;
+}
+.edit{
+    margin: 5px 5px 0px 0px;
+    border-radius: 4px ;
+    width: 50px;
+    position: absolute;
+    right: 4rem;
+}
+.mainbox{
+    display: flex;
+    flex-direction: column;
+}
+.Videobox{
+    /* margin: 0px 15px 0px 15px; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.add{
+    display: flex;
+    flex-direction: column;
+}
+.addtitle,.addname,.addview,.addbtn{
+     margin: 5px;
+     width: 40%;
+     padding: 5px;
+     border-radius: 5px solid rgb(187, 182, 182);
+}
+.heading{
+    margin: 5px;
+    font-weight: 500;
+}
